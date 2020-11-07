@@ -1,0 +1,30 @@
+@import 'src/app/styles/exports.scss';
+
+.color-picker {
+    @media(min-width: $breakpoint-md) {
+        display: flex;
+        flex-direction: column;
+        min-height: calc(100vh - var(--spacer-2) * 2);
+    }
+}
+
+.color-picker__title {
+    text-align: center;
+}
+
+.color-picker__list {
+    flex: 1;
+    display: grid;
+    grid-gap: var(--spacer-1);
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 0;
+
+    @media(min-width: $breakpoint-xm) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media(min-width: $breakpoint-md) {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 50%);
+    }
+}

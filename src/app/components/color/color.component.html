@@ -1,0 +1,8 @@
+<section class="color" [style.background-color]="color.color" (click)="copyClipboard(color.color)">
+    <p class="color__year">{{color.year}}</p>
+    <div class="color__descriptor">
+        <p class="color__name">{{color.name}}</p>
+        <h2 class="color__space-code">{{color.color}}</h2>
+    </div>
+    <p class="color__pantone-code">{{color.pantone_value}}</p>
+</section>

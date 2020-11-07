@@ -1,0 +1,5 @@
+@import '../_variables/_scale-sizing';
+
+@function calculateRem($size) {
+    @return $size / $scale-sizing-base * 1rem;
+}

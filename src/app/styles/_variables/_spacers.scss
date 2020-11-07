@@ -1,0 +1,9 @@
+@import '../_mixins-functions/_rem-to-pixel';
+
+:root {
+    --spacer-1: #{calculateRem(8px)};
+    --spacer-2: #{calculateRem(12px)};
+    --spacer-3: #{calculateRem(16px)};
+    --spacer-4: #{calculateRem(24px)};
+    --spacer-5: #{calculateRem(48px)};
+}

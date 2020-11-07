@@ -1,0 +1,14 @@
+@import '../_mixins-functions/_rem-to-pixel';
+
+:root {
+    --font-p30: #{calculateRem(30px)};
+    --font-p26: #{calculateRem(26px)};
+    --font-p22: #{calculateRem(22px)};
+    --font-p20: #{calculateRem(20px)};
+    --font-p18: #{calculateRem(18px)};
+    --font-p16: #{calculateRem(16px)};
+    --font-p15: #{calculateRem(15px)};
+    --font-p14: #{calculateRem(14px)};
+    --font-p13: #{calculateRem(13px)};
+    --font-p12: #{calculateRem(12px)};
+}

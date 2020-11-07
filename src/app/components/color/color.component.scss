@@ -1,0 +1,28 @@
+@import 'src/app/styles/exports.scss';
+
+.color {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: var(--spacer-2);
+    border-radius: calculateRem(12px);
+    cursor: pointer;
+
+    @media(min-width: $breakpoint-md) {
+        height: 100%;
+    }
+}
+
+.color__name {
+    margin-bottom: var(--spacer-1);
+}
+
+.color__name,
+.color__space-code {
+    text-align: center;
+}
+
+.color__pantone-code {
+    margin-bottom: 0;
+    text-align: right;
+}

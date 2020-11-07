@@ -1,0 +1,9 @@
+html {
+  --scale-sizing: #{$scale-sizing-base};
+
+  @media (min-width: $breakpoint-lg) {
+    --scale-sizing: 20px;
+  }
+  
+  font-size: var(--scale-sizing);
+}
