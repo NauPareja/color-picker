@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
 @Injectable()
 export class ColorService {
 
-  private _colorsURL = "https://reqres.in/api/colors";
+  private _colorsURL: string = "https://reqres.in/api/colors";
   
   constructor(private _http: HttpClient) {}
 
